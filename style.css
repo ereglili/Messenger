@@ -95,7 +95,7 @@ body {
 
 .chat .sidebar .contacts ul li a .contact .message {
     font-size: 13px;
-    color: rgb(212, 16, 16);
+    color: #434242;
 
 }
 
@@ -115,15 +115,49 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 15px;
 
 }
 
 .chat .content .message-header .user-info {
     display: flex;
+    align-items: center;
 }
 
 .chat .content .message-header .user-info img {
     width: 40px;
     height: 40px;
     border-radius: 50%;
+    margin-right: 10px;
+}
+
+.chat .content .message-header .user-info .user .name {
+    font-size: 15px;
+    color: #222;
+    font-weight: 650;
+    
+
+}
+
+.chat .content .message-header .user-info .user .time {
+    font-size: 12px;
+    color: #999;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.chat .content .message-header .actions ul {
+    display: flex;
+    
+}
+
+.chat .content .message-header .actions ul li a {
+    margin-left: 10px;
+    align-items: center;
+    font-size: 20px;
+    color: rgb(112, 111, 111);
+}
+
+.chat .content .message-header .actions ul li a:hover {
+    color: #222;
 }
